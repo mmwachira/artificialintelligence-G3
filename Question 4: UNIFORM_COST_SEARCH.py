@@ -61,4 +61,4 @@ UNIFORM_COST_SEARCH(graph, cost, opened, explored, start_node)
 # This is the robot's destination
 goal_node = "ParkingLot"
 # input("Enter the Destination: ")
-print("The shortest path for the robot is: ", path[goal_node])
+print("The optimal path for the robot is: ", path[goal_node])
